@@ -15,8 +15,8 @@ FA=A-F;                  %Vektor CD laves ud fra punkterne F og A
 
 figure(1)               %Fortæller matlab vi vil lave en figur. (1) bestemmer at den bare skal lave en standard figur.
 
-quiver(A(1),A(1),AB(1),AB(2),0)     %Jeg er lidt i tvilv om hvordan quiver virker.
-hold on                             %Hold on fortæller matlab at den skal gemme den sidste graf og tilføje de nye. 
+quiver(A(1),A(1),AB(1),AB(2),0)     %Jeg er lidt i tvivl om hvordan quiver virker.
+hold on                             %Hold on fortæller matlab at den skal gemme den sidste graf og tilføje de(n) nye. 
 quiver(B(1),B(2),BC(1),BC(2),0)     %Jeg tror at det første punkt bestemmer x koordinaten(1) og andet punkt bestemmes ved (2)
 quiver(C(1),C(2),CD(1),CD(2),0)     %0 bestemmer at der ikke skal være nogle skala (den bestemmer med axis)
 quiver(D(1),D(2),DE(1),DE(2),0)
