@@ -26,3 +26,5 @@ grid                                %Giver et firkantet system så det er nemmer
 axis([-1 10 -3 10])                 %(axis)bestemmer mellem hvilken værdier af x,x og y,y den skal tegne.
                                     %(axis) hvis du ikke kan se din vektor
                                     %(axis)er en måske uden for tegnefladen
+                                    
+1+1                                    
